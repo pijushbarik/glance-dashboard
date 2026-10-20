@@ -1,0 +1,12 @@
+- type: calendar
+  first-day-of-week: monday
+  hide-header: true
+
+- type: weather
+  location: ${WEATHER_LOCATION}
+  units: metric # alternatively "imperial"
+  hour-format: 12h # alternatively "24h"
+  # Optionally hide the location from being displayed in the widget
+  # hide-location: true
+  hide-header: true
+

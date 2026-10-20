@@ -1,0 +1,12 @@
+- $include: monitor.yml
+#- $include: komodo.yml
+#- $include: scrutiny.yml
+
+- type: split-column
+  max-count: 2
+  widgets:
+    - $include: komodo.yml
+    - $include: scrutiny.yml
+
+- $include: immich.yml
+

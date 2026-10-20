@@ -1,0 +1,6 @@
+logs/
+
+.env
+
+# ignore the glance binary
+glance

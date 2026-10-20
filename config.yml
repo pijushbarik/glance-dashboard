@@ -1,0 +1,27 @@
+pages:
+  - name: Dash
+    columns:
+      - size: small
+        widgets:
+          - $include: leftpanel.yml
+      
+      - size: full
+        widgets:
+          - $include: centerpanel.yml
+
+      - size: small
+        widgets:
+          - $include: rightpanel.yml
+
+  - name: Updates
+    columns:
+      - size: full
+        widgets:
+          - $include: videos.yml
+          - type: split-column
+            max-columns: 3
+            widgets:
+              - $include: reddit-group.yml
+              - type: hacker-news
+              - type: lobsters
+

@@ -1,0 +1,3 @@
+- $include: bookmarks.yml
+- $include: speedtest-tracker.yml
+- $include: dns-stats.yml

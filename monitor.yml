@@ -1,0 +1,24 @@
+- type: monitor
+  cache: 1m
+  title: Services
+  hide-header: true
+  sites:
+    - title: AdGuard Home
+      url: ${ADGUARD_HOST}
+      icon: sh:adguard-home
+    - title: Immich
+      url: ${IMMICH_HOST}
+      icon: sh:immich
+    - title: Forgejo
+      url: ${FORGEJO_HOST}
+      icon: sh:forgejo
+    - title: Komodo
+      url: ${KOMODO_HOST}
+      icon: sh:komodo
+    - title: N8N
+      url: ${N8N_HOST}
+      icon: sh:n8n
+    - title: Pocket ID
+      url: ${POCKETID_HOST}
+      icon: sh:pocket-id
+

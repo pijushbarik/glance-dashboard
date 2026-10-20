@@ -1,0 +1,17 @@
+- type: bookmarks
+  groups:
+    - title: Services (self hosted)
+      links:
+        - title: Immich
+          url: ${IMMICH_HOST_PUBLIC}
+        - title: Forgejo
+          url: ${FORGEJO_HOST_PUBLIC}
+        - title: Copyparty
+          url: ${COPYPARTY_HOST_PUBLIC}
+        - title: Komodo
+          url: ${KOMODO_HOST_PUBLIC}
+        - title: N8N
+          url: ${N8N_HOST_PUBLIC}
+        - title: Pocket ID
+          url: ${POCKETID_HOST_PUBLIC}
+  hide-header: true

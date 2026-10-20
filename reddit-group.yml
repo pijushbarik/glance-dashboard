@@ -1,0 +1,17 @@
+- type: group
+  widgets:
+    - type: reddit
+      subreddit: technology
+      show-thumbnails: true
+    - type: reddit
+      subreddit: selfhosted
+      show-thumbnails: true
+    - type: reddit
+      subreddit: homelab
+      show-thumbnails: true
+    - type: reddit
+      subreddit: technology 
+      show-thumbnails: true
+    - type: reddit
+      subreddit: CasualConversation
+      show-thumbnails: true
