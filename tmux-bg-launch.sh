@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/sh
 termux-wake-lock
 
-glance_home=/data/data/com.termux/files/home/glance
+glance_home=/data/data/com.termux/files/home/glance-dashboard
 
 cd $glance_home
 
