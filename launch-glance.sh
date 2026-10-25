@@ -8,4 +8,4 @@ set -a
 . ./.env
 set +a
 
-./glance --config ./config.yml
+./dynacat --config ./config.yml

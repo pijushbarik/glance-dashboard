@@ -1,6 +1,10 @@
 logs/
-
 .env
+.cache/
 
 # ignore the glance binary
 glance
+
+# ignore the dynacat binary
+dynacat
+
